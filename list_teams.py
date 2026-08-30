@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Look up ESPN sport/league/team_id values to put in teams.yaml.
+"""Look up ESPN teams and print ready-to-paste teams.yaml entries.
 
 Usage:
     python list_teams.py basketball nba
     python list_teams.py football college-football
     python list_teams.py basketball mens-college-basketball
     python list_teams.py basketball nba lakers   # filter by name
+
+Prints one YAML block per matching team -- copy the ones you want straight
+into teams.yaml, then adjust `slug` if you'd rather it not match `team_id`.
 
 Common league values:
     basketball/nba, basketball/mens-college-basketball, basketball/wnba
@@ -33,12 +36,28 @@ def main() -> int:
     data = resp.json()
 
     teams = data["sports"][0]["leagues"][0]["teams"]
+    matches = []
     for entry in teams:
         team = entry["team"]
         display = team["displayName"]
         if name_filter and name_filter not in display.lower():
             continue
-        print(f"{team['id']:>6}  {team.get('abbreviation', ''):<6}  {display}")
+        matches.append(team)
+
+    if not matches:
+        print("No teams matched.", file=sys.stderr)
+        return 1
+
+    for team in matches:
+        abbr = team.get("abbreviation", "")
+        slug = abbr.lower() if abbr else str(team["id"])
+        team_id = abbr.lower() if abbr else team["id"]
+        print(f"  - name: \"{team['displayName']}\"")
+        print(f"    slug: {slug}")
+        print(f"    sport: {sport}")
+        print(f"    league: {league}")
+        print(f"    team_id: {team_id}")
+        print()
 
     return 0
 
