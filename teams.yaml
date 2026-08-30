@@ -1,0 +1,18 @@
+# Each entry becomes its own .ics feed (so you can subscribe/color/toggle each
+# team separately in Google Calendar). "sport" and "league" match ESPN's own
+# URL segments -- see list_teams.py for how to find them and the numeric/abbr
+# team_id for a given league.
+#
+# Placeholders below: one pro team, one college team. Replace or add more.
+teams:
+  - name: "Los Angeles Lakers"
+    slug: lal
+    sport: basketball
+    league: nba
+    team_id: lal
+
+  - name: "Duke Blue Devils Football"
+    slug: duke-fb
+    sport: football
+    league: college-football
+    team_id: "150"
