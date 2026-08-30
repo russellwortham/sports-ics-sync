@@ -5,14 +5,22 @@
 #
 # Placeholders below: one pro team, one college team. Replace or add more.
 teams:
-  - name: "Los Angeles Lakers"
-    slug: lal
-    sport: basketball
-    league: nba
-    team_id: lal
+  - name: "Dallas Cowboys"
+    slug: dal
+    sport: football
+    league: nfl
+    team_id: dal
 
-  - name: "Duke Blue Devils Football"
-    slug: duke-fb
+  - name: "Kansas City Chiefs"
+    slug: kc
+    sport: football
+    league: nfl
+    team_id: kc
+
+  - name: "Arkansas Razorbacks"
+    slug: ark
     sport: football
     league: college-football
-    team_id: "150"
+    team_id: ark
+
+
