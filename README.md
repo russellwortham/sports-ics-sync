@@ -16,15 +16,24 @@ subscribe to.
   refresh interval, typically every 12-24 hours — it does not push updates
   instantly).
 
-## Setup
+This repo is already live at https://github.com/russellwortham/sports-ics-sync
+with GitHub Pages serving `docs/` from `main`, so setup below is done — this
+is the reference for maintaining it.
 
-1. **Configure teams** in `teams.yaml`. Each entry needs `name`, `slug`
-   (used as the filename), `sport`, `league`, and `team_id`.
+## Adding or changing a team
 
-2. **Find team IDs** with the lookup helper:
+Run these from the repo root (`/Users/russellwortham/repositories/personal/sports-ics-sync`).
+
+1. **Find the team's `sport`/`league`/`team_id`**:
    ```
-   python list_teams.py basketball nba lakers
-   python list_teams.py football college-football duke
+   .venv/bin/python list_teams.py <sport> <league> <name-filter>
+   ```
+   Examples:
+   ```
+   .venv/bin/python list_teams.py football nfl chiefs
+   .venv/bin/python list_teams.py baseball mlb dodgers
+   .venv/bin/python list_teams.py basketball mens-college-basketball duke
+   .venv/bin/python list_teams.py football college-football alabama
    ```
    Common `sport`/`league` pairs:
    - `basketball`/`nba`, `basketball`/`mens-college-basketball`, `basketball`/`wnba`
@@ -32,25 +41,53 @@ subscribe to.
    - `baseball`/`mlb`
    - `hockey`/`nhl`
 
-3. **Test locally**:
+2. **Add an entry to `teams.yaml`**:
+   ```yaml
+     - name: "Kansas City Chiefs"
+       slug: kc-chiefs
+       sport: football
+       league: nfl
+       team_id: kc
    ```
-   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+3. **Test locally** before pushing:
+   ```
    .venv/bin/python generate_ics.py
    ```
-   Check the output in `docs/`.
+   Check that `docs/<slug>.ics` was created and looks right.
 
-4. **Push to GitHub**, then enable Pages: repo Settings → Pages → Source =
-   `Deploy from a branch`, branch `main`, folder `/docs`. GitHub will give you
-   a URL like `https://<username>.github.io/<repo>/`.
+4. **Commit and push**:
+   ```
+   git add teams.yaml docs
+   git commit -m "Add <team name>"
+   git push
+   ```
 
-5. **Subscribe in Google Calendar**: Settings → Add calendar → From URL →
-   paste `https://<username>.github.io/<repo>/<slug>.ics` (one per team, so
-   you can toggle/color each team independently), or `.../all.ics` for a
-   single combined calendar.
+5. **(Optional) Force an immediate refresh** instead of waiting up to 6 hours
+   for the next scheduled run:
+   ```
+   gh workflow run update-ics.yml
+   ```
 
-6. The GitHub Actions workflow keeps the feeds refreshed automatically going
-   forward — no further action needed after setup. You can also trigger it
-   manually from the Actions tab (`workflow_dispatch`).
+6. **Subscribe the new feed in Google Calendar**: Settings → Add calendar →
+   From URL → paste `https://russellwortham.github.io/sports-ics-sync/<slug>.ics`
+   (one per team, so you can toggle/color each team independently), or
+   `.../all.ics` for a single combined calendar.
+
+## Scheduling
+
+GitHub Actions is the scheduler — no local cron or launchd job needed, and it
+runs even if your Mac is off. `.github/workflows/update-ics.yml` has:
+```yaml
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+```
+It regenerates the `.ics` files and commits any changes automatically. To
+change the frequency, edit that cron expression and push. Google Calendar
+then polls the published URL on its own schedule (roughly every 12-24 hours,
+Google's choice, not push-based) — so the feed being fresh on GitHub doesn't
+mean Google grabs it instantly.
 
 ## Notes
 
