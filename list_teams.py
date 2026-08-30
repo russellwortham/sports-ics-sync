@@ -11,10 +11,17 @@ Prints one YAML block per matching team -- copy the ones you want straight
 into teams.yaml, then adjust `slug` if you'd rather it not match `team_id`.
 
 Common league values:
-    basketball/nba, basketball/mens-college-basketball, basketball/wnba
+    basketball/nba, basketball/wnba
+    basketball/mens-college-basketball, basketball/womens-college-basketball
     football/nfl, football/college-football
     baseball/mlb
     hockey/nhl
+    soccer/eng.1 (Premier League), soccer/usa.1 (MLS)
+
+Not seeing your league here? Go to that sport's page on espn.com -- the
+segment right after espn.com/ is usually the league value (e.g.
+espn.com/mens-college-basketball), and `sport` is the broader family word
+(basketball, football, baseball, hockey, soccer, ...).
 """
 import sys
 
@@ -32,6 +39,15 @@ def main() -> int:
     name_filter = sys.argv[3].lower() if len(sys.argv) > 3 else None
 
     resp = requests.get(TEAMS_URL.format(sport=sport, league=league), timeout=15)
+    if resp.status_code == 404:
+        print(
+            f"ESPN doesn't recognize sport={sport!r} league={league!r}.\n"
+            "Check the sport/league values against the site.espn.com URL for that\n"
+            "sport (the part right after espn.com/ is usually the league value),\n"
+            "or see the Common league values list above (run with no args).",
+            file=sys.stderr,
+        )
+        return 1
     resp.raise_for_status()
     data = resp.json()
 
