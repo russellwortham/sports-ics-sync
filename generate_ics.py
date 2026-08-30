@@ -128,6 +128,13 @@ def main() -> int:
     combined = build_calendar("All Teams", all_events)
     (OUTPUT_DIR / "all.ics").write_bytes(combined.to_ical())
     print(f"Wrote {len(teams)} team feed(s) + all.ics to {OUTPUT_DIR}")
+
+    expected = {f"{team['slug']}.ics" for team in teams} | {"all.ics"}
+    for existing in OUTPUT_DIR.glob("*.ics"):
+        if existing.name not in expected:
+            print(f"Removing stale feed no longer in teams.yaml: {existing.name}")
+            existing.unlink()
+
     return 0
 
 
