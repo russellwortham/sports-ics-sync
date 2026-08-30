@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Tulane Green Wave @ Duke Blue Devils
 DTSTART:20260905T193000Z
 DTEND:20260905T223000Z
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:19a22efc-3d62-5cea-84b5-107c22bd90d1@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Wallace Wade Stadium\, Durham\, NC
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:Duke Blue Devils @ Illinois Fighting Illini
 DTSTART:20260912T193000Z
 DTEND:20260912T223000Z
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:fa025170-0d82-56d3-adcb-b7462c57ff10@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Gies Memorial Stadium\, Champaign\, IL
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Stanford Cardinal @ Duke Blue Devils
 DTSTART:20260919T200000Z
 DTEND:20260919T230000Z
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:9f1f17b3-50ec-5d32-afe3-249aed1996f8@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Wallace Wade Stadium\, Durham\, NC
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:William & Mary Tribe @ Duke Blue Devils
 DTSTART:20260926T193000Z
 DTEND:20260926T223000Z
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:31517250-0d8b-5b88-adf7-867fe907cfba@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Wallace Wade Stadium\, Durham\, NC
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Duke Blue Devils @ Georgia Tech Yellow Jackets
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:0a2cbeae-e045-5c58-997f-1b0a54617bf6@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Bobby Dodd Stadium\, Atlanta\, GA
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:North Carolina Tar Heels @ Duke Blue Devils
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:d7c00194-2778-517a-8806-a7993837a889@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Wallace Wade Stadium\, Durham\, NC
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Duke Blue Devils @ Virginia Cavaliers
 DTSTART:20261023T230000Z
 DTEND:20261024T020000Z
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:987ad2f9-4d0f-50ed-8e64-a3728cddabc8@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Scott Stadium\, Charlottesville\, VA
@@ -70,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:Boston College Eagles @ Duke Blue Devils
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:6d8fe06e-f023-51c1-9e72-2947c9aed860@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Wallace Wade Stadium\, Durham\, NC
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:Duke Blue Devils @ NC State Wolfpack
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:8f3eb3cd-a13f-515e-b850-ec0a97c59d88@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Carter-Finley Stadium\, Raleigh\, NC
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:Duke Blue Devils @ Miami Hurricanes
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:4a881d10-c669-5b83-8bed-322c82210428@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Hard Rock Stadium\, Miami Gardens\, FL
@@ -97,7 +97,7 @@ BEGIN:VEVENT
 SUMMARY:Clemson Tigers @ Duke Blue Devils
 DTSTART:20261121T003000Z
 DTEND:20261121T033000Z
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:8a41e6de-468f-5b25-99ee-d04129f7c011@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Wallace Wade Stadium\, Durham\, NC
@@ -106,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:Duke Blue Devils @ Wake Forest Demon Deacons
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20260830T181759Z
+DTSTAMP:20260830T184459Z
 UID:a727ce7e-00e9-59c5-8881-93766a47b029@sports-ics-sync
 DESCRIPTION:Tracked team: Duke Blue Devils Football\nStatus: Scheduled
 LOCATION:Allegacy Federal Credit Union Stadium\, Winston-Salem\, NC
