@@ -2,61 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//sports-ics-sync//espn//EN
 CALSCALE:GREGORIAN
-X-WR-CALNAME:All Teams
-BEGIN:VEVENT
-SUMMARY:Dallas Cowboys @ Seattle Seahawks
-DTSTART:20260816T000000Z
-DTEND:20260816T030000Z
-DTSTAMP:20260830T194322Z
-UID:ebf5505c-a654-56bb-b123-a47a0b1d4f0c@sports-ics-sync
-DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Final
-LOCATION:Lumen Field\, Seattle\, WA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dallas Cowboys @ Arizona Cardinals
-DTSTART:20260823T020000Z
-DTEND:20260823T050000Z
-DTSTAMP:20260830T194322Z
-UID:ff4d8c7c-862b-5ab8-b9ec-ce0ed85f214d@sports-ics-sync
-DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Final
-LOCATION:State Farm Stadium\, Glendale\, AZ
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:New Orleans Saints @ Dallas Cowboys
-DTSTART:20260829T000000Z
-DTEND:20260829T030000Z
-DTSTAMP:20260830T194322Z
-UID:19208061-e1da-5fa7-af14-2a1332294492@sports-ics-sync
-DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Final
-LOCATION:AT&T Stadium\, Arlington\, TX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Los Angeles Rams @ Kansas City Chiefs
-DTSTART:20260815T200000Z
-DTEND:20260815T230000Z
-DTSTAMP:20260830T194322Z
-UID:23ca5026-38a5-5a92-a30e-58af4ca69d87@sports-ics-sync
-DESCRIPTION:Tracked team: Kansas City Chiefs\nStatus: Final
-LOCATION:Arrowhead Stadium\, Kansas City\, MO
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kansas City Chiefs @ Tampa Bay Buccaneers
-DTSTART:20260822T233000Z
-DTEND:20260823T023000Z
-DTSTAMP:20260830T194322Z
-UID:a5371355-429d-59a1-9e2b-f3401c1f5452@sports-ics-sync
-DESCRIPTION:Tracked team: Kansas City Chiefs\nStatus: Final
-LOCATION:Raymond James Stadium\, Tampa\, FL
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Seattle Seahawks @ Kansas City Chiefs
-DTSTART:20260829T000000Z
-DTEND:20260829T030000Z
-DTSTAMP:20260830T194322Z
-UID:621f838f-d847-5798-a8f3-00d5dfc48607@sports-ics-sync
-DESCRIPTION:Tracked team: Kansas City Chiefs\nStatus: Final
-LOCATION:Arrowhead Stadium\, Kansas City\, MO
-END:VEVENT
+X-WR-CALNAME:Arkansas Razorbacks
 BEGIN:VEVENT
 SUMMARY:North Alabama Lions @ Arkansas Razorbacks
 DTSTART:20260905T201500Z
