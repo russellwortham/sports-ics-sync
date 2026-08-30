@@ -69,10 +69,37 @@ Run these from the repo root (`/Users/russellwortham/repositories/personal/sport
    gh workflow run update-ics.yml
    ```
 
-6. **Subscribe the new feed in Google Calendar**: Settings → Add calendar →
-   From URL → paste `https://russellwortham.github.io/sports-ics-sync/<slug>.ics`
-   (one per team, so you can toggle/color each team independently), or
-   `.../all.ics` for a single combined calendar.
+6. **Subscribe the new feed in Google Calendar** — see below.
+
+## Subscribing in Google Calendar
+
+Each per-team `.ics` URL becomes its own separate calendar in Google
+Calendar — its own entry under "Other calendars," its own on/off toggle, and
+its own color, independent of the others. `all.ics` instead puts every
+team's games into a single calendar with one color and no per-team
+toggling. **Subscribe to the per-team feeds if you want to color-code by
+team.**
+
+Steps (desktop web only — Google Calendar's mobile apps can't add a
+subscription by URL, though feeds added on the web do then sync down to the
+mobile apps):
+
+1. Go to [calendar.google.com](https://calendar.google.com) on desktop.
+2. In the left sidebar, click the **+** next to "Other calendars" →
+   **From URL**.
+3. Paste one team's feed URL, e.g.:
+   ```
+   https://russellwortham.github.io/sports-ics-sync/lal.ics
+   ```
+4. Click **Add calendar**. It appears under "Other calendars" named after
+   the team (e.g. "Los Angeles Lakers").
+5. Repeat for each team you want as its own calendar.
+6. To color a calendar, hover over it under "Other calendars," click the
+   three-dot menu, and pick a color.
+
+Google fetches updates from the URL on its own schedule (roughly every
+12-24 hours) rather than instantly, so a change on GitHub can take a while
+to show up on your calendar.
 
 ## Scheduling
 
