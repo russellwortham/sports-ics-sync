@@ -26,4 +26,8 @@ teams:
     league: college-football
     team_id: ark
 
-
+  - name: "Arkansas Razorbacks"
+    slug: ark-bb
+    sport: basketball
+    league: mens-college-basketball
+    team_id: ark
