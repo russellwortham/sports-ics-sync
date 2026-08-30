@@ -8,11 +8,18 @@ Usage:
     python list_teams.py basketball nba lakers   # filter by name
 
 Prints one YAML block per matching team -- copy the ones you want straight
-into teams.yaml. The suggested `slug` is just the lowercased abbreviation,
-which collides if you add the same school for two sports (e.g. Arkansas
-football and basketball are both team_id "ark") -- give each a distinct
-slug yourself in that case, e.g. ark-fb / ark-bb. generate_ics.py will
-refuse to run with a duplicate slug rather than silently overwrite a feed.
+into teams.yaml. `team_id` is ESPN's numeric team id: some teams'
+abbreviations 400 on the schedule endpoint in some leagues (e.g. Arkansas
+basketball's "ARK" does, even though Arkansas football's and Duke's
+abbreviations work fine elsewhere) with no obvious pattern for which ones,
+so the numeric id is the only value that's reliable everywhere.
+
+`slug` is just the lowercased abbreviation for readability -- it's our own
+filename choice, not sent to ESPN, so it collides if you add the same
+school for two sports (e.g. Arkansas football and basketball would both
+suggest "ark") -- give each a distinct slug yourself in that case, e.g.
+ark-fb / ark-bb. generate_ics.py will refuse to run with a duplicate slug
+rather than silently overwrite a feed.
 
 Common league values:
     basketball/nba, basketball/wnba
@@ -71,12 +78,11 @@ def main() -> int:
     for team in matches:
         abbr = team.get("abbreviation", "")
         slug = abbr.lower() if abbr else str(team["id"])
-        team_id = abbr.lower() if abbr else team["id"]
         print(f"  - name: \"{team['displayName']}\"")
         print(f"    slug: {slug}")
         print(f"    sport: {sport}")
         print(f"    league: {league}")
-        print(f"    team_id: {team_id}")
+        print(f"    team_id: \"{team['id']}\"")
         print()
 
     return 0

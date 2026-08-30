@@ -30,4 +30,4 @@ teams:
     slug: ark-bb
     sport: basketball
     league: mens-college-basketball
-    team_id: ark
+    team_id: "8"
