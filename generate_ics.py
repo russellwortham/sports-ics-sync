@@ -96,6 +96,19 @@ def main() -> int:
         print("teams.yaml has no teams configured", file=sys.stderr)
         return 1
 
+    slugs_seen: dict[str, str] = {}
+    for team in teams:
+        slug = team["slug"]
+        if slug in slugs_seen:
+            print(
+                f"teams.yaml error: '{slugs_seen[slug]}' and '{team['name']}' both use "
+                f"slug '{slug}', which would overwrite one team's feed with the other's. "
+                "Give each team a distinct slug (e.g. ark-fb vs ark-bb).",
+                file=sys.stderr,
+            )
+            return 1
+        slugs_seen[slug] = team["name"]
+
     OUTPUT_DIR.mkdir(exist_ok=True)
     all_events: list[Event] = []
 

@@ -3,7 +3,10 @@
 # URL segments -- see list_teams.py for how to find them and the numeric/abbr
 # team_id for a given league.
 #
-# Placeholders below: one pro team, one college team. Replace or add more.
+# slug must be unique across this whole file -- it names the output file.
+# team_id does NOT need to be globally unique (ESPN scopes it by sport+league),
+# so the same school in two sports (e.g. Arkansas football and basketball,
+# both team_id "ark") needs two different slugs, like ark-fb and ark-bb.
 teams:
   - name: "Dallas Cowboys"
     slug: dal

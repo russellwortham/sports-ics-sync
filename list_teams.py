@@ -8,7 +8,11 @@ Usage:
     python list_teams.py basketball nba lakers   # filter by name
 
 Prints one YAML block per matching team -- copy the ones you want straight
-into teams.yaml, then adjust `slug` if you'd rather it not match `team_id`.
+into teams.yaml. The suggested `slug` is just the lowercased abbreviation,
+which collides if you add the same school for two sports (e.g. Arkansas
+football and basketball are both team_id "ark") -- give each a distinct
+slug yourself in that case, e.g. ark-fb / ark-bb. generate_ics.py will
+refuse to run with a duplicate slug rather than silently overwrite a feed.
 
 Common league values:
     basketball/nba, basketball/wnba
