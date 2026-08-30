@@ -18,13 +18,32 @@ OUTPUT_DIR = ROOT / "docs"
 SCHEDULE_URL = "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/teams/{team_id}/schedule"
 GAME_DURATION = timedelta(hours=3)
 REQUEST_TIMEOUT = 15
+# ESPN's schedule endpoint without a seasontype param only returns whichever
+# phase it currently considers "the" season (e.g. just the 3 preseason games
+# while the real season hasn't started yet, silently omitting the other 17).
+# Fetching every phase and merging avoids that.
+SEASON_TYPES = (1, 2, 3)  # preseason, regular season, postseason
 
 
-def fetch_schedule(sport: str, league: str, team_id: str) -> dict:
-    url = SCHEDULE_URL.format(sport=sport, league=league, team_id=team_id)
-    resp = requests.get(url, timeout=REQUEST_TIMEOUT)
-    resp.raise_for_status()
-    return resp.json()
+def fetch_schedule_events(sport: str, league: str, team_id: str) -> list[dict]:
+    events_by_id: dict[str, dict] = {}
+    any_success = False
+    for season_type in SEASON_TYPES:
+        url = SCHEDULE_URL.format(sport=sport, league=league, team_id=team_id)
+        try:
+            resp = requests.get(url, params={"seasontype": season_type}, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+        except requests.RequestException:
+            continue
+        any_success = True
+        for event in resp.json().get("events", []):
+            events_by_id[event["id"]] = event
+
+    if not any_success:
+        raise requests.RequestException(
+            f"all seasontype requests failed for {sport}/{league}/{team_id}"
+        )
+    return sorted(events_by_id.values(), key=lambda e: e["date"])
 
 
 def event_uid(sport: str, league: str, event_id: str) -> str:
@@ -121,15 +140,12 @@ def main() -> int:
 
         print(f"Fetching {name} ({sport}/{league}/{team_id})...")
         try:
-            data = fetch_schedule(sport, league, team_id)
+            raw_events = fetch_schedule_events(sport, league, team_id)
         except requests.RequestException as exc:
             print(f"  WARNING: failed to fetch {name}: {exc}", file=sys.stderr)
             continue
 
-        events = [
-            build_event(sport, league, name, raw_event)
-            for raw_event in data.get("events", [])
-        ]
+        events = [build_event(sport, league, name, raw_event) for raw_event in raw_events]
         print(f"  {len(events)} events")
 
         cal = build_calendar(name, events)

@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Dallas Cowboys @ Seattle Seahawks
 DTSTART:20260816T000000Z
 DTEND:20260816T030000Z
-DTSTAMP:20260830T195849Z
+DTSTAMP:20260830T200536Z
 UID:ebf5505c-a654-56bb-b123-a47a0b1d4f0c@sports-ics-sync
 DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Final
 LOCATION:Lumen Field\, Seattle\, WA
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:Dallas Cowboys @ Arizona Cardinals
 DTSTART:20260823T020000Z
 DTEND:20260823T050000Z
-DTSTAMP:20260830T195849Z
+DTSTAMP:20260830T200536Z
 UID:ff4d8c7c-862b-5ab8-b9ec-ce0ed85f214d@sports-ics-sync
 DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Final
 LOCATION:State Farm Stadium\, Glendale\, AZ
@@ -25,9 +25,162 @@ BEGIN:VEVENT
 SUMMARY:New Orleans Saints @ Dallas Cowboys
 DTSTART:20260829T000000Z
 DTEND:20260829T030000Z
-DTSTAMP:20260830T195849Z
+DTSTAMP:20260830T200536Z
 UID:19208061-e1da-5fa7-af14-2a1332294492@sports-ics-sync
 DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Final
 LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ New York Giants
+DTSTART:20260914T002000Z
+DTEND:20260914T032000Z
+DTSTAMP:20260830T200536Z
+UID:b946ddcb-3cb9-555b-b31e-e8b1311237b5@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:MetLife Stadium\, East Rutherford\, NJ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Washington Commanders @ Dallas Cowboys
+DTSTART:20260920T202500Z
+DTEND:20260920T232500Z
+DTSTAMP:20260830T200536Z
+UID:424add8a-8b50-5110-9c21-61c0f9c3448f@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Baltimore Ravens @ Dallas Cowboys
+DTSTART:20260927T202500Z
+DTEND:20260927T232500Z
+DTSTAMP:20260830T200536Z
+UID:146d720e-5c3e-5c13-bd61-2828f71b38b2@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Maracanã Stadium\, Rio De Janeiro
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Houston Texans
+DTSTART:20261004T170000Z
+DTEND:20261004T200000Z
+DTSTAMP:20260830T200536Z
+UID:e971e4c6-6a38-578a-bcbd-5fa00c5c0df6@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Reliant Stadium\, Houston\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tampa Bay Buccaneers @ Dallas Cowboys
+DTSTART:20261009T001500Z
+DTEND:20261009T031500Z
+DTSTAMP:20260830T200536Z
+UID:72434eef-ab04-5809-b767-49218056a608@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Green Bay Packers
+DTSTART:20261019T002000Z
+DTEND:20261019T032000Z
+DTSTAMP:20260830T200536Z
+UID:321a4468-9658-5da9-85ca-e3278f027ad2@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Lambeau Field\, Green Bay\, WI
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Philadelphia Eagles
+DTSTART:20261027T001500Z
+DTEND:20261027T031500Z
+DTSTAMP:20260830T200536Z
+UID:0cd65662-4127-5dc4-a8aa-e27d3ce73bd5@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Lincoln Financial Field\, Philadelphia\, PA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arizona Cardinals @ Dallas Cowboys
+DTSTART:20261101T180000Z
+DTEND:20261101T210000Z
+DTSTAMP:20260830T200536Z
+UID:326ef1ca-25be-51d7-9478-89d8076d0d34@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Indianapolis Colts
+DTSTART:20261108T180000Z
+DTEND:20261108T210000Z
+DTSTAMP:20260830T200536Z
+UID:9344f4c6-63de-52d3-a4d7-59adb5580cb5@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Lucas Oil Stadium\, Indianapolis\, IN
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:San Francisco 49ers @ Dallas Cowboys
+DTSTART:20261115T212500Z
+DTEND:20261116T002500Z
+DTSTAMP:20260830T200536Z
+UID:b4c932a2-e7a1-5063-915c-10c5710f4d57@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tennessee Titans @ Dallas Cowboys
+DTSTART:20261122T180000Z
+DTEND:20261122T210000Z
+DTSTAMP:20260830T200536Z
+UID:8bc15dc2-5e3f-5efc-9b51-ec3e8192702d@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Philadelphia Eagles @ Dallas Cowboys
+DTSTART:20261126T213000Z
+DTEND:20261127T003000Z
+DTSTAMP:20260830T200536Z
+UID:95247a72-010a-553e-ada9-331eda0afcad@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Seattle Seahawks
+DTSTART:20261208T011500Z
+DTEND:20261208T041500Z
+DTSTAMP:20260830T200536Z
+UID:7f4ddbd5-267b-5e3c-ad22-696b1fe5f69c@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Lumen Field\, Seattle\, WA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Los Angeles Rams
+DTSTART:20261220T212500Z
+DTEND:20261221T002500Z
+DTSTAMP:20260830T200536Z
+UID:4b432a41-fa4d-5e60-9a32-50717fdc937d@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:SoFi Stadium\, Inglewood\, CA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jacksonville Jaguars @ Dallas Cowboys
+DTSTART:20261228T012000Z
+DTEND:20261228T042000Z
+DTSTAMP:20260830T200536Z
+UID:e18d767a-612a-5252-b833-990b8f8b6be9@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New York Giants @ Dallas Cowboys
+DTSTART:20270103T180000Z
+DTEND:20270103T210000Z
+DTSTAMP:20260830T200536Z
+UID:0be9e096-7f3a-5174-a68e-e160fcfc0e82@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:AT&T Stadium\, Arlington\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dallas Cowboys @ Washington Commanders
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DTSTAMP:20260830T200536Z
+UID:8519f22d-177c-5169-9ad4-db340693f499@sports-ics-sync
+DESCRIPTION:Tracked team: Dallas Cowboys\nStatus: Scheduled
+LOCATION:Northwest Stadium\, Landover\, MD
 END:VEVENT
 END:VCALENDAR
