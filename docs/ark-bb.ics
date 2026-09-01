@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ North Carolina Tar Heels
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:433cff19-2971-5fdd-9b6b-394b95cc9e2f@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Dean E. Smith Center\, Chapel Hill\, NC
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Arizona Wildcats
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:49eb1230-6d94-5a16-abde-add056304247@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Mortgage Matchup Center\, Phoenix\, AZ
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Central Michigan Chippewas @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:0ab9eef2-91d0-5413-a4e8-426e80f76912@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:Missouri Tigers @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:8ad5ca52-aa2e-542e-995d-6de70be644ec@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ South Carolina Gamecocks
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:67494fcf-7dee-5112-b3a6-760cd0e15b92@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Colonial Life Arena\, Columbia\, SC
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:Alabama Crimson Tide @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:54d83ca9-8b32-5d87-9433-045830873714@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Texas A&M Aggies
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:e5d27068-b6dc-5e95-be34-bd61195f197e@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Reed Arena\, College Station\, TX
@@ -70,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Tennessee Volunteers
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:8c6eb98d-3198-5152-9ef1-9e81fb47dc39@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Food City Center\, Knoxville\, TN
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:Georgia Bulldogs @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:d54e2a4b-b8fb-5c1f-ae38-9d9c549f87c2@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Texas Longhorns
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:9324af23-b7b6-53f1-8859-9f6bec1c1f81@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Moody Center\, Austin\, TX
@@ -97,7 +97,7 @@ BEGIN:VEVENT
 SUMMARY:LSU Tigers @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:d25f52a6-cbe6-52a5-a53a-fdc16345cccd@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -106,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:Mississippi State Bulldogs @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:28db0c2a-7b04-51af-8616-35fa3372b9c6@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -115,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Vanderbilt Commodores
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:9f4aec9e-1620-5d29-a184-32b8f6957c65@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Memorial Gymnasium (TN)\, Nashville\, TN
@@ -124,7 +124,7 @@ BEGIN:VEVENT
 SUMMARY:Ole Miss Rebels @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:14db01ac-6483-59fc-b89c-978c4f139373@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -133,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Alabama Crimson Tide
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:867ac42b-dd51-5a84-a810-6e8bf13fd0c4@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Coleman Coliseum\, Tuscaloosa\, AL
@@ -142,7 +142,7 @@ BEGIN:VEVENT
 SUMMARY:Auburn Tigers @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:5ffc2f6c-d9b9-50e6-935b-2e9866e351bc@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -151,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Kentucky Wildcats
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:9b98333a-0bcc-5ad5-90c4-3f5c4a094b49@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Rupp Arena\, Lexington\, KY
@@ -160,7 +160,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Missouri Tigers
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:334cf880-8345-50c6-9e77-352b05bb969b@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Mizzou Arena\, Columbia\, MO
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:Florida Gators @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:4367df49-eb62-5ceb-ac45-11448dad4150@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
@@ -178,7 +178,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ LSU Tigers
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:bfef8e9a-68b5-552d-b073-cab5dbdba809@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Pete Maravich Assembly Center\, Baton Rouge\, LA
@@ -187,7 +187,7 @@ BEGIN:VEVENT
 SUMMARY:Oklahoma Sooners @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-DTSTAMP:20260901T105608Z
+DTSTAMP:20260901T155507Z
 UID:cc5f947a-7e11-59f6-a586-d87413cf42b3@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Bud Walton Arena\, Fayetteville\, AR
