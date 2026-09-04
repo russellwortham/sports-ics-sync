@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:North Alabama Lions @ Arkansas Razorbacks
 DTSTART:20260905T201500Z
 DTEND:20260905T231500Z
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:543f6885-64de-500c-a354-55fd12ce6361@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Utah Utes
 DTSTART:20260913T021500Z
 DTEND:20260913T051500Z
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:d83b925d-64ac-5bce-912c-d3ae28ff384e@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Rice-Eccles Stadium\, Salt Lake City\, UT
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Georgia Bulldogs @ Arkansas Razorbacks
 DTSTART:20260919T160000Z
 DTEND:20260919T190000Z
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:407a6f06-633b-5f3a-ad99-6c1ddb6669a3@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:Tulsa Golden Hurricane @ Arkansas Razorbacks
 DTSTART:20260927T000000Z
 DTEND:20260927T030000Z
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:53e14c37-7edd-53b1-a9e6-674fce9844b6@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Texas A&M Aggies
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:3f5082ff-305f-576a-94da-53954342fcef@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Kyle Field\, College Station\, TX
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:Tennessee Volunteers @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:c26f86c1-0723-5ccb-a785-7e0766f1e375@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Vanderbilt Commodores
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:11e245e5-cc68-53dd-ad07-b2a76205ac72@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:FirstBank Stadium\, Nashville\, TN
@@ -70,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:Missouri Tigers @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:3bffd9b7-c275-58f6-b5f4-4c0d66779f3f@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Auburn Tigers
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:495b402d-09e9-59e2-a0eb-47421bd4b76c@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Jordan-Hare Stadium\, Auburn\, AL
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:South Carolina Gamecocks @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:1da721a7-104a-5495-b8b3-d8522b5ca077@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
@@ -97,7 +97,7 @@ BEGIN:VEVENT
 SUMMARY:Arkansas Razorbacks @ Texas Longhorns
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:b98a56c1-da78-5bc0-992d-488372e27bbd@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:DKR-Texas Memorial Stadium\, Austin\, TX
@@ -106,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:LSU Tigers @ Arkansas Razorbacks
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20260904T022630Z
+DTSTAMP:20260904T102103Z
 UID:843be570-fde8-537b-9bb9-2a9c4ee27333@sports-ics-sync
 DESCRIPTION:Tracked team: Arkansas Razorbacks\nStatus: Scheduled
 LOCATION:Donald W. Reynolds Razorback Stadium\, Fayetteville\, AR
